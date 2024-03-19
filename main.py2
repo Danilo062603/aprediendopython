@@ -1,0 +1,15 @@
+print("proporcione los siguientes datos")
+libro = input("nombre del libro: ")
+id = int(input("ingrese el id: "))
+precio = float(input("precio: "))
+enviogratuito = input("ingrese si el envio es gratuito (Flase/ True): ")
+if enviogratuito:
+    print("el envio es gratuito")
+else:
+    print("el envio no es gratuito")
+
+print(f"el nombre es:{libro}")
+print(f"el id es: {id}")
+print(f"el precio es:{precio}")
+print(f"el envio gratuito es: {enviogratuito}")
+
